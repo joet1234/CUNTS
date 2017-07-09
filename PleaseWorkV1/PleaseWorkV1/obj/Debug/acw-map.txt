@@ -1,0 +1,8 @@
+PleaseWorkV1.Login, PleaseWorkV1;md5e584eeb522d6b4e74a6ed8a97f6802ee.Login
+PleaseWorkV1.Login, PleaseWorkV1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e584eeb522d6b4e74a6ed8a97f6802ee.Login
+PleaseWorkV1.Login;md5e584eeb522d6b4e74a6ed8a97f6802ee.Login
+pleaseworkv1.Login;md5e584eeb522d6b4e74a6ed8a97f6802ee.Login
+PleaseWorkV1.Menu, PleaseWorkV1;md5e584eeb522d6b4e74a6ed8a97f6802ee.Menu
+PleaseWorkV1.Menu, PleaseWorkV1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e584eeb522d6b4e74a6ed8a97f6802ee.Menu
+PleaseWorkV1.Menu;md5e584eeb522d6b4e74a6ed8a97f6802ee.Menu
+pleaseworkv1.Menu;md5e584eeb522d6b4e74a6ed8a97f6802ee.Menu
