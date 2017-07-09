@@ -4,95 +4,96 @@ using Android.OS;
 
 namespace PleaseWorkV1
 {
-    [Activity(Label = "PleaseWorkV1", MainLauncher = true, Icon = "@drawable/icon")]
-    public class Login : Activity
-    {
-        public DataSets.User userOne = new DataSets.User();
-        
-        public EditText username;
-        public EditText password;
-        public Button loginButton;
-        public TextView forgotPass;
+	[Activity(Label = "PleaseWorkV1", MainLauncher = true, Icon = "@drawable/icon")]
+	public class Login : Activity
+	{
+		public DataSets.User userOne = new DataSets.User();
 
-        protected override void OnCreate(Bundle bundle)
-        {
-            base.OnCreate(bundle);
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Login);
+		public EditText username;
+		public EditText password;
+		public Button loginButton;
+		public TextView forgotPass;
 
-            //Link with axml 
-            username = FindViewById<EditText>(Resource.Id.UsernameET);
-            password = FindViewById<EditText>(Resource.Id.PasswordET);
-            loginButton = FindViewById<Button>(Resource.Id.MyButton);
-            forgotPass = FindViewById<TextView>(Resource.Id.ForgotPassword);
+		protected override void OnCreate(Bundle bundle)
+		{
+			base.OnCreate(bundle);
+			// Set our view from the "main" layout resource
+			SetContentView(Resource.Layout.Login);
 
-            // set onclick listener here, by deleting some process
-            loginButton.Click += delegate {
-                logonButtonClick();
+			//Link with axml 
+			username = FindViewById<EditText>(Resource.Id.userName);
+			password = FindViewById<EditText>(Resource.Id.password);
+			loginButton = FindViewById<Button>(Resource.Id.loginButton);
+			forgotPass = FindViewById<TextView>(Resource.Id.help_button);
 
-            };
+			// set onclick listener here, by deleting some process
+			loginButton.Click += delegate
+			{
+				logonButtonClick();
 
-            forgotPass.Click += delegate
-            {
-                forgotPassClick();
-            };
+			};
 
-        }
+			forgotPass.Click += delegate
+			{
+				forgotPassClick();
+			};
 
-        public void logonButtonClick()
-        {
-            userOne.StudentNumber = username.Text;
-            userOne.Password = password.Text;
+		}
 
-            if (ValidateDetails() == true)
-            {
-                Toast.MakeText(this, "Move To Next", ToastLength.Long).Show();
+		public void logonButtonClick()
+		{
+			userOne.StudentNumber = username.Text;
+			userOne.Password = password.Text;
 
-                StartActivity(typeof(Menu));
+			if (ValidateDetails() == true)
+			{
+				Toast.MakeText(this, "Move To Next", ToastLength.Long).Show();
+
+				StartActivity(typeof(Menu));
 
 
-            }
-        }
+			}
+		}
 
-        private void forgotPassClick()
-        {
-            Toast.MakeText(this, "Your Fucked", ToastLength.Long).Show();
-        }
+		private void forgotPassClick()
+		{
+			Toast.MakeText(this, "Your Fucked", ToastLength.Long).Show();
+		}
 
-        public bool ValidateDetails()
-        {
-            //Username Correct
-            if (userOne.ValidateUsername(username.Text) == true)
-            {
+		public bool ValidateDetails()
+		{
+			//Username Correct
+			if (userOne.ValidateUsername(username.Text) == true)
+			{
 
-                if (userOne.Password.Length != 0)
-                {
-                    if (userOne.withinDatabase() == true)
-                    {
-                        // Check within Database
-                        Toast.MakeText(this, "Details Correct", ToastLength.Long).Show();
-                        return true;
-                    }
-                    else
-                    {
-                        Toast.MakeText(this, "Details Incorrect", ToastLength.Long).Show();
-                        return false;
-                    }
-                }
-                else
-                {
-                    Toast.MakeText(this, "Password Field Empty", ToastLength.Long).Show();
-                    return false;
-                }
-            }
+				if (userOne.Password.Length != 0)
+				{
+					if (userOne.withinDatabase() == true)
+					{
+						// Check within Database
+						Toast.MakeText(this, "Details Correct", ToastLength.Long).Show();
+						return true;
+					}
+					else
+					{
+						Toast.MakeText(this, "Details Incorrect", ToastLength.Long).Show();
+						return false;
+					}
+				}
+				else
+				{
+					Toast.MakeText(this, "Password Field Empty", ToastLength.Long).Show();
+					return false;
+				}
+			}
 
-            else
-            {
-                Toast.MakeText(this, "Username Incorrect Format", ToastLength.Long).Show();
-                return false;
-            }
-        }
-    }
+			else
+			{
+				Toast.MakeText(this, "Username Incorrect Format", ToastLength.Long).Show();
+				return false;
+			}
+		}
+	}
 }
 
 

@@ -45,7 +45,19 @@ namespace PleaseWorkV1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int border = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int buttonborder = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int gradient = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Icon = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int qublogo = 2130837508;
 			
 			static Drawable()
 			{
@@ -60,35 +72,65 @@ namespace PleaseWorkV1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050005
-			public const int ForgotPassword = 2131034117;
-			
-			// aapt resource value: 0x7f050009
-			public const int Logout = 2131034121;
-			
-			// aapt resource value: 0x7f050004
-			public const int MyButton = 2131034116;
-			
-			// aapt resource value: 0x7f050003
-			public const int PasswordET = 2131034115;
-			
 			// aapt resource value: 0x7f050002
-			public const int PasswordTv = 2131034114;
+			public const int Intro = 2131034114;
+			
+			// aapt resource value: 0x7f050013
+			public const int Logout = 2131034131;
 			
 			// aapt resource value: 0x7f050000
-			public const int UserNameTv = 2131034112;
+			public const int SupportHeading = 2131034112;
 			
-			// aapt resource value: 0x7f050001
-			public const int UsernameET = 2131034113;
+			// aapt resource value: 0x7f050011
+			public const int absence = 2131034129;
 			
-			// aapt resource value: 0x7f050007
-			public const int absence = 2131034119;
+			// aapt resource value: 0x7f05000e
+			public const int exitButton = 2131034126;
+			
+			// aapt resource value: 0x7f05000f
+			public const int help_button = 2131034127;
+			
+			// aapt resource value: 0x7f05000d
+			public const int loginButton = 2131034125;
+			
+			// aapt resource value: 0x7f050004
+			public const int login_title = 2131034116;
+			
+			// aapt resource value: 0x7f050009
+			public const int password = 2131034121;
 			
 			// aapt resource value: 0x7f050008
-			public const int settings = 2131034120;
+			public const int passwordText = 2131034120;
 			
 			// aapt resource value: 0x7f050006
-			public const int timetable = 2131034118;
+			public const int passwordchangeBio = 2131034118;
+			
+			// aapt resource value: 0x7f050003
+			public const int relativeLayout1 = 2131034115;
+			
+			// aapt resource value: 0x7f050012
+			public const int settings = 2131034130;
+			
+			// aapt resource value: 0x7f050010
+			public const int timetable = 2131034128;
+			
+			// aapt resource value: 0x7f050007
+			public const int userName = 2131034119;
+			
+			// aapt resource value: 0x7f05000a
+			public const int username = 2131034122;
+			
+			// aapt resource value: 0x7f050005
+			public const int usernameText = 2131034117;
+			
+			// aapt resource value: 0x7f050001
+			public const int view2 = 2131034113;
+			
+			// aapt resource value: 0x7f05000b
+			public const int view3 = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int view4 = 2131034124;
 			
 			static Id()
 			{

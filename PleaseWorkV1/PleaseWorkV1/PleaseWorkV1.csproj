@@ -67,7 +67,6 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\qublogo.png" />
-    <AndroidResource Include="Resources\layout\LoginPageRedone.xml" />
     <AndroidResource Include="Resources\drawable\gradient.xml" />
     <AndroidResource Include="Resources\drawable\border.xml" />
     <AndroidResource Include="Resources\drawable\buttonborder.xml" />
