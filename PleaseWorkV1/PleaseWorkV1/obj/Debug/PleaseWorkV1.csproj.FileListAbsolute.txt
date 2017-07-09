@@ -17,3 +17,6 @@ C:/Users/JosephTurkington/Source/Repos/MedicalStudentV1/PleaseWorkV1/PleaseWorkV
 /Users/eoincurran/Projects/joet1234/CUNTS.git/PleaseWorkV1/PleaseWorkV1/obj/Debug/PleaseWorkV1.csprojResolveAssemblyReference.cache
 /Users/eoincurran/Projects/joet1234/CUNTS.git/PleaseWorkV1/PleaseWorkV1/obj/Debug/PleaseWorkV1.dll
 /Users/eoincurran/Projects/joet1234/CUNTS.git/PleaseWorkV1/PleaseWorkV1/obj/Debug/PleaseWorkV1.pdb
+C:\Users\JosephTurkington\Source\Repos\CUNTS\PleaseWorkV1\PleaseWorkV1\obj\Debug\PleaseWorkV1.csprojResolveAssemblyReference.cache
+C:\Users\JosephTurkington\Source\Repos\CUNTS\PleaseWorkV1\PleaseWorkV1\obj\Debug\PleaseWorkV1.dll
+C:\Users\JosephTurkington\Source\Repos\CUNTS\PleaseWorkV1\PleaseWorkV1\obj\Debug\PleaseWorkV1.pdb
